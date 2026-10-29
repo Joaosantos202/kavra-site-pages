@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 779 695" role="img" aria-labelledby="title desc">
+  <title id="title">Kavra - símbolo K neon</title>
+  <desc id="desc">Símbolo K da Kavra com degradê neon amarelo e verde sobre fundo transparente</desc>
+  <defs>
+    <linearGradient id="kavraNeonK" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5FC0C"/>
+      <stop offset="24%" stop-color="#DDF906"/>
+      <stop offset="50%" stop-color="#FFF6AA"/>
+      <stop offset="75%" stop-color="#FFF786"/>
+      <stop offset="100%" stop-color="#FFFA58"/>
+    </linearGradient>
+    <filter id="softGlowK" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-color="#DDF906" flood-opacity="0.38"/>
+      <feComposite in2="blur" operator="in"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g fill="url(#kavraNeonK)" filter="url(#softGlowK)"><path d="M260 0 L6 307 L6 0 Z"/><path d="M535 694 L187 344 L531 0 L762 0 L431 345 L779 695 Z"/><path d="M338 695 L0 694 L0 535 L91 444 Z"/></g>
+</svg>
